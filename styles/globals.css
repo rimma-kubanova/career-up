@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  
+  body {
+    @apply bg-[#51E9BB] text-[#17426A] tracking-wide
+  }
+  html {
+    font-family: Montserrat, system-ui, sans-serif;;
+  }
+}
